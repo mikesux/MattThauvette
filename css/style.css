@@ -1,0 +1,172 @@
+/*
+ * Matt Thauvette
+*/
+
+h1, h2, h3, h3, h4, h5, h6 {
+	font-family: BlairMdITC;
+}
+
+p {
+	font-family: 'Ubuntu', sans-serif !important;
+	font-size:18px;
+	margin: 0 !important;
+}
+
+a {font-family: 'Ubuntu', sans-serif !important;}
+
+/* this is the small version of the social icons */
+
+#social_links ul {
+	padding:0;
+	margin-top: 5px;
+}
+
+/* ------------------------ the Matt Section - start ------------------------ */
+
+#about_Matt_bg {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color:#d9c8a7;
+  background-image: url("https://googledrive.com/host/0B_yi02gWy34NRVJzcUJLWTMyMVU/2c.jpg");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  height:100%;
+}
+
+#about_Matt_bg a {
+  color:#99836b;
+}
+
+.nav a {
+  color:#000000 !important;
+  font-family:BlairMdITC !important;
+  font-size:12px;
+}
+
+.tab-pane {
+  padding-top:20px;
+}
+
+#bio {text-align:center;}
+
+/* ------- video stuff ----------------*/
+.video {
+  margin-top: 16px;
+  padding-top: 10px;
+}
+
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 16px;
+  overflow: hidden;
+  background-color:#ffffff;
+  border: 7px solid #ffffff;
+}
+
+.flex-video.widescreen { padding-bottom: 57.25%; }
+
+.flex-video.vimeo { padding-top: 0; }
+
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* ------------------------- Lesson Section - start ------------------------- */
+
+#about_lessons_bg {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-image: url("https://googledrive.com/host/0B_yi02gWy34NRVJzcUJLWTMyMVU/3c.jpg");
+  background-origin: padding-box;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-color: #99836b;
+}
+
+#lesson-bit {
+  padding-right:10px;
+}
+
+#lessons {text-align:center}
+
+#unique ul li {
+  list-style:none;
+}
+
+
+/* -------------------------- Contact Section - start -------------------------- */
+
+#contact_bg {
+  text-align: center;
+  background-color:#000000;
+  color:#9c826b;
+  padding-top:15px;
+  padding-bottom:30px;
+}
+#contact_bg a {
+  color:#E4D7AE;
+}
+
+/* this removed the outline after clicking a # link */
+:focus {
+  outline: 0;
+}
+
+a {outline:0 !important}
+
+
+
+@media (max-width: 768px) {
+
+  #content .entry-header,
+  #content .entry-content,
+  #content .entry-summary,
+  #content footer.entry-meta,
+  #content .featured-gallery,
+  .search.sidebar .page-content,
+  .blog.sidebar .page-content,
+  .sidebar .post-navigation .nav-links,
+  .paging-navigation .nav-links,
+  #content .author-info,
+  .comments-area .comments-title,
+  .comments-area .comment-list,
+  .comments-area .comment-navigation,
+  .comment-respond,
+  .sidebar .site-info,
+  .sidebar .paging-navigation .nav-links {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  p {font-size:13px;}
+
+  h3 {font-size:18px;}
+
+  .main_page {
+    padding-right:20px;
+    padding-left:20px;
+  }
+
+  #unique ul {
+    padding-right:0;
+    padding-left:0;
+  }
+
+  #about_Matt_bg {background-image:none;}
+
+  #about_lessons_bg {background-image:none;}
+
+}
