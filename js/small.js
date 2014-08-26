@@ -1,3 +1,5 @@
-$(document).ready(function($) {
-    $(welcome).hide();
+$(document).ready(function() {
+    $("#social_bg").animate({
+        opacity:1,
+      }, 2000);
 });
